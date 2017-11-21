@@ -285,8 +285,18 @@ header.masthead {
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
 
+  }
+
+@media (max-width: 767px) {
+  .contact-item {
+  text-align: center !important;}
+
+  h4.service-heading {
+  font-size: 18px !important;}
+
+  }
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
